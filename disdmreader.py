@@ -24,7 +24,7 @@ if window == None:
     quit()
 else:
     print(f"found {window}")
-    input()
+    input("Press enter to continue...")
     wsh = comctl.Dispatch("WScript.Shell")
     running = True
     while running:
